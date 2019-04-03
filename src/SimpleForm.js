@@ -1,6 +1,5 @@
 import React from 'react';
 import Greetings from './Greetings';
-import { EventEmitter } from 'events';
 import style from './style';
 import TextField from './TextField';
 

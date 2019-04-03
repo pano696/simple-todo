@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Greetings from './Greetings'
 import SimpleForm from './SimpleForm'
+import Lessons from './Lessons'
+import Footer from './footer/Footer'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         </p>
         {/* <Greetings firstName="Pavel" lastName="Murzagaliev" /> */}
         <SimpleForm />
+        <Lessons />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -23,6 +25,7 @@ const App = () => {
           Learn React
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
